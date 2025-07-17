@@ -1,35 +1,30 @@
-/* استدعاء الخط Katibeh من ملف TTF */
 @font-face {
   font-family: "Katibeh-Regular";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/Katibeh-Regular.ttf") format("truetype");
+  src: url("Katibeh-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
-/* مكرر لنفس الخط بوزن ثقيل، لكن بدون unicode-range */
 @font-face {
   font-family: "Katibeh-Regular";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/Katibeh-Regular.ttf") format("truetype");
+  src: url("Katibeh-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
-/* تطبيق الخط على الصفحة */
 body {
   font-family: "Katibeh-Regular", cursive;
   text-align: center;
-  direction: rtl; /* اتجاه عربي */
+  direction: rtl;
   font-size: 20px;
 }
 
-/* عنوان رئيسي */
 h1 {
-  font-weight: 700; /* ثقيل */
+  font-weight: 700;
 }
 
-/* عنوان فرعي */
 h2 {
-  font-weight: 400; /* عادي */
+  font-weight: 400;
 }
