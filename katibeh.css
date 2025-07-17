@@ -1,31 +1,35 @@
-
+/* استدعاء الخط Katibeh من ملف TTF */
 @font-face {
-font-family: "Katibeh-Regular";
-font-style: normal;
-src: url(Katibeh-Regular.ttf) format("ttf");
-font-display: auto;
+  font-family: "Katibeh-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Katibeh-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
+/* مكرر لنفس الخط بوزن ثقيل، لكن بدون unicode-range */
 @font-face {
-font-family: "Katibeh-Regular";
-font-style: normal;
-font-weight: 700;
-src: url(Katibeh-Regular.ttf) format("truetype");
-unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-U+FEFF, U+FFFD;
+  font-family: "Katibeh-Regular";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/Katibeh-Regular.ttf") format("truetype");
+  font-display: swap;
 }
 
+/* تطبيق الخط على الصفحة */
 body {
-font-family: "Katibeh-Regular", cursive;
-text-align: center;
+  font-family: "Katibeh-Regular", cursive;
+  text-align: center;
+  direction: rtl; /* اتجاه عربي */
+  font-size: 20px;
 }
 
+/* عنوان رئيسي */
 h1 {
-font-weight: 700;
+  font-weight: 700; /* ثقيل */
 }
 
+/* عنوان فرعي */
 h2 {
-font-weight: 400;
+  font-weight: 400; /* عادي */
 }
-
