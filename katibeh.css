@@ -1,32 +1,42 @@
 @font-face {
   font-family: "Katibeh-Regular";
-  font-style: normal;
-  font-weight: 400;
   src: url("Katibeh-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
 }
 
 @font-face {
   font-family: "Katibeh-Regular";
-  font-style: normal;
-  font-weight: 700;
   src: url("Katibeh-Regular.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
   font-display: swap;
 }
 
 body {
   font-family: "Katibeh-Regular", cursive;
-  text-align: center;
   direction: rtl;
-  font-size: 36px;
+  text-align: center;
+  font-size: 28px; /* حجم الخط الأساسي */
+  line-height: 1.6; /* تحسين المسافة بين الأسطر */
+  margin: 20px;
 }
 
 h1 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 48px; /* حجم الخط للعناوين الرئيسية */
+  margin-bottom: 20px;
 }
 
 h2 {
+  font-weight: 700;
+  font-size: 36px; /* حجم الخط للعناوين الفرعية */
+  margin-bottom: 15px;
+}
+
+p {
   font-weight: 400;
-  font-size: 28px;
+  font-size: 24px; /* حجم الخط للنصوص */
+  margin-bottom: 15px;
 }
