@@ -15,14 +15,14 @@
 }
 
 html {
-  font-size: 20px; /* حجم الأساس: 1rem = 18px */
+  font-size: 18px; /* حجم الأساس: 1rem = 18px */
 }
 
 body {
   font-family: "Katibeh-Regular", cursive;
   direction: rtl;
   text-align: center;
-  font-size: 1rem;        /* = 27px */
+  font-size: 1.5rem;        /* = 27px */
   line-height: 1.8;
   margin: 1rem;
   color: #222;
@@ -30,13 +30,13 @@ body {
 
 h1 {
   font-weight: 700;
-  font-size: 2rem;        /* = 45px */
+  font-size: 2.5rem;        /* = 45px */
   margin-bottom: 1rem;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 1.5rem;          /* = 36px */
+  font-size: 3rem;          /* = 36px */
   margin-bottom: 0.8rem;
 }
 
