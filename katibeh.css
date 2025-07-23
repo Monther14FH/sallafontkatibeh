@@ -17,31 +17,3 @@
 html {
   font-size: 18px; /* حجم الأساس: 1rem = 18px */
 }
-
-body {
-  font-family: "Katibeh-Regular", cursive;
-  direction: rtl;
-  text-align: right;
-  font-size: 1.5rem;        /* = 27px */
-  line-height: 1.8;
-  margin: 1rem;
-  color: #222;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 2.5rem;        /* = 45px */
-  margin-bottom: 1rem;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 2rem;          /* = 36px */
-  margin-bottom: 0.8rem;
-}
-
-p {
-  font-weight: 400;
-  font-size: 1.3rem;        /* = 23.4px */
-  margin-bottom: 1rem;
-}
