@@ -21,7 +21,7 @@ html {
 body {
   font-family: "Katibeh-Regular", cursive;
   direction: rtl;
-  text-align: center;
+  text-align: right;
   font-size: 1.5rem;        /* = 27px */
   line-height: 1.8;
   margin: 1rem;
